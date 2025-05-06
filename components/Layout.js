@@ -44,7 +44,7 @@ export default function Layout({ children }) {
                 aria-label="Open chat"
               >
                 <MessageSquare className="w-5 h-5" />
-                <span>Start chatting</span>
+                <span>Chat Now</span>
               </button>
             )}
           </div>
