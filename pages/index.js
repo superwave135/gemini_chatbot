@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>DreamieLand Website with Chatbot</title>
+        <title>DreamieLand AI Powered Chatbot</title>
         <meta name="description" content="A dummy website built with Next.js featuring a Gemini-powered chatbot" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -17,7 +17,7 @@ export default function Home() {
               Welcome to DreamieLand
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              DreamieLand is powered by an AI-powered chatbot with NextJS.
+              DreamieLand is powered by an AI-powered chatbot with AI Agents.
             </p>
           </div>
 
