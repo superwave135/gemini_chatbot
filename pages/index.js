@@ -17,7 +17,7 @@ export default function Home() {
               Welcome to DreamieLand
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              DreamieLand is powered by an AI-powered chatbot with AI Agents.
+              Powering your business to greater heights with Advanced Agentic Chatbot
             </p>
           </div>
 
