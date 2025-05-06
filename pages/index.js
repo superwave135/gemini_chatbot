@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>DreamieLand AI Powered Chatbot</title>
-        <meta name="description" content="A dummy website built with Next.js featuring a Gemini-powered chatbot" />
+        <meta name="description" content="Powering your business to greater heights with Advanced Agentic Chatbot" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
