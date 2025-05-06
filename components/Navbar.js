@@ -12,11 +12,11 @@ export default function Navbar() {
               {/* Replace with your actual logo */}
               <Link href="/">
                 <span className="h-8 w-8 mr-2 bg-sky-600 rounded flex items-center justify-center text-white font-bold">
-                  DN
+                  DL
                 </span>
               </Link>
               <Link href="/" className="text-xl font-bold text-gray-800">
-                Dummy Next
+                DreamieLand
               </Link>
             </div>
           </div>

@@ -122,3 +122,72 @@ The chatbot appears as a floating button in the bottom right corner of the websi
 ## License
 
 MIT
+
+###### #####################################################
+# GIT COMMAND
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git init
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/geekytan/Documents/saas_dev/chatbot_02/.git/
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git add .
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git commit -m "Initial commit"
+[master (root-commit) e91e6a1] Initial commit
+ 17 files changed, 3455 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 components/ChatbotComponent.js
+ create mode 100644 components/Footer.js
+ create mode 100644 components/Layout.js
+ create mode 100644 components/Navbar.js
+ create mode 100644 next.config.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 package_json_01.txt
+ create mode 100644 pages/_app.js
+ create mode 100644 pages/api/chat.js
+ create mode 100644 pages/index.js
+ create mode 100644 postcss.config.js
+ create mode 100644 public/favicon.ico
+ create mode 100644 styles/globals.css
+ create mode 100644 tailwind.config.js
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git remote add origin https://github.com/superwave135/gemini_chatbot.git
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git push -u origin main
+
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/superwave135/gemini_chatbot.git'
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git branch
+* master
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git branch -m master main
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git branch  ( change from local master to local main)
+* main
+
+geekytan@geeky:~/Documents/saas_dev/chatbot_02$ git push -u origin main
+
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (24/24), 36.15 KiB | 4.52 MiB/s, done.
+Total 24 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/superwave135/gemini_chatbot.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
