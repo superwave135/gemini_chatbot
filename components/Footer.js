@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-center md:justify-start">
             <p className="text-center md:text-left">
-              &copy; {new Date().getFullYear()} Dummy Next.js Website. All rights reserved.
+              &copy; {new Date().getFullYear()} DreamieLand by GeekTok.ai . All rights reserved.
             </p>
           </div>
           
